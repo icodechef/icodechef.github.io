@@ -1,0 +1,469 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>响应 | Lime</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.5">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="./dependency-injection.html" />
+    
+    
+    <link rel="prev" href="./request.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="8"
+        data-chapter-title="响应"
+        data-filepath="response.md"
+        data-basepath="."
+        data-revision="Tue Dec 15 2015 16:04:31 GMT+0800 (中国标准时间)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="./index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Lime 中文文档
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="getting-start.html">
+            
+                
+                    <a href="./getting-start.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        快速起步
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="configure.html">
+            
+                
+                    <a href="./configure.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        配置
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="router.html">
+            
+                
+                    <a href="./router.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        路由
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="controller.html">
+            
+                
+                    <a href="./controller.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        控制器
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="model.html">
+            
+                
+                    <a href="./model.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        模型
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="view.html">
+            
+                
+                    <a href="./view.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        视图
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="request.html">
+            
+                
+                    <a href="./request.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                        请求
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="8" data-path="response.html">
+            
+                
+                    <a href="./response.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.</b>
+                        
+                        响应
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="9" data-path="dependency-injection.html">
+            
+                
+                    <a href="./dependency-injection.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.</b>
+                        
+                        依赖注入
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10" data-path="middleware.html">
+            
+                
+                    <a href="./middleware.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.</b>
+                        
+                        中间件
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="11" data-path="error-handle.html">
+            
+                
+                    <a href="./error-handle.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.</b>
+                        
+                        错误处理
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="12" data-path="pdo.html">
+            
+                
+                    <a href="./pdo.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>12.</b>
+                        
+                        数据库
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="13" data-path="cookies.html">
+            
+                
+                    <a href="./cookies.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>13.</b>
+                        
+                        Cookies
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="14" data-path="helper.html">
+            
+                
+                    <a href="./helper.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>14.</b>
+                        
+                        辅助函数
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="15" data-path="htaccess.html">
+            
+                
+                    <a href="./htaccess.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>15.</b>
+                        
+                        单入口
+                    </a>
+            
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="./" >Lime</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h2 id="&#x54CD;&#x5E94;">&#x54CD;&#x5E94;</h2>
+<p>&#x4E00;&#x4E2A;&#x5E94;&#x7528;&#x7684;&#x54CD;&#x5E94;&#x662F;&#x7528; \Lime\Response &#x5BF9;&#x8C61;&#x6765;&#x8868;&#x793A;&#x7684;&#xFF0C;&#x54CD;&#x5E94;&#x5BF9;&#x8C61;&#x5305;&#x542B;&#x7684;&#x4FE1;&#x606F;&#x6709; HTTP &#x72B6;&#x6001;&#x7801;&#xFF0C;HTTP &#x5934;&#x548C;&#x4E3B;&#x4F53;&#x5185;&#x5BB9;&#x7B49;</p>
+<h3 id="&#x53D6;&#x5F97;&#x54CD;&#x5E94;&#x5B9E;&#x4F8B;">&#x53D6;&#x5F97;&#x54CD;&#x5E94;&#x5B9E;&#x4F8B;</h3>
+<p>&#x4E0E;&#x8BF7;&#x6C42;&#x4E00;&#x6837;&#xFF0C;&#x6BCF;&#x4E2A; Lime &#x5E94;&#x7528;&#x5B9E;&#x4F8B;&#x90FD;&#x6709;&#x4E00;&#x4E2A;&#x9ED8;&#x8BA4;&#x7684; \Lime\Response &#x5BF9;&#x8C61;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x5728;&#x4EFB;&#x4F55;&#x9700;&#x8981;&#x7684;&#x5730;&#x65B9;&#x521B;&#x5EFA;&#x81EA;&#x5DF1;&#x7684;&#x54CD;&#x5E94;&#x5BF9;&#x8C61;&#x800C;&#x5B8C;&#x5168;&#x4E0D;&#x5F71;&#x54CD;&#x5E94;&#x7528;&#x3002;</p>
+<p>&#x4F60;&#x53EF;&#x4EE5;&#x7528;&#x5982;&#x4E0B;&#x65B9;&#x5F0F;&#x83B7;&#x5F97; Lime &#x5E94;&#x7528; \Lime\Response &#x5BF9;&#x8C61;&#x7684;&#x4E00;&#x4E2A;&#x5F15;&#x7528;&#xFF1A;</p>
+<pre><code class="lang-php"><span class="hljs-comment">// &#x65B9;&#x6CD5; 1: </span>
+<span class="hljs-variable">$response</span> = <span class="hljs-variable">$app</span>-&gt;response;
+
+<span class="hljs-comment">// &#x65B9;&#x6CD5; 2: </span>
+<span class="hljs-variable">$response</span> = \Lime\Lime::app()-&gt;response;
+
+<span class="hljs-comment">// &#x65B9;&#x6CD5; 3: </span>
+<span class="hljs-variable">$response</span> = \Lime\Lime::app(<span class="hljs-string">&apos;response&apos;</span>);
+
+<span class="hljs-comment">// &#x65B9;&#x6CD5; 4: </span>
+<span class="hljs-variable">$response</span> = app(<span class="hljs-string">&apos;response&apos;</span>);
+</code></pre>
+<p>&#x521B;&#x5EFA;&#x81EA;&#x5DF1;&#x7684;&#x54CD;&#x5E94;&#x5BF9;&#x8C61;&#xFF1A;</p>
+<pre><code class="lang-php"><span class="hljs-variable">$response</span> = <span class="hljs-keyword">new</span> \Lime\Response();
+</code></pre>
+<h3 id="&#x57FA;&#x672C;&#x54CD;&#x5E94;">&#x57FA;&#x672C;&#x54CD;&#x5E94;</h3>
+<p>&#x4ECE;&#x8DEF;&#x7531;&#x8FD4;&#x56DE;&#x5B57;&#x7B26;&#x4E32;</p>
+<pre><code class="lang-php"><span class="hljs-variable">$app</span>-&gt;get(<span class="hljs-string">&apos;/&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-string">&apos;Hello World!&apos;</span>;
+});
+</code></pre>
+<p>&#x76F4;&#x63A5;&#x8F93;&#x51FA;&#x5B57;&#x7B26;&#x4E32;</p>
+<pre><code class="lang-php"><span class="hljs-variable">$app</span>-&gt;get(<span class="hljs-string">&apos;/&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">&apos;Hello World!&apos;</span>;
+
+    <span class="hljs-comment">// ...</span>
+
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">&apos;End&apos;</span>;
+});
+</code></pre>
+<h3 id="http-&#x54CD;&#x5E94;&#x7684;&#x72B6;&#x6001;&#x7801;">HTTP &#x54CD;&#x5E94;&#x7684;&#x72B6;&#x6001;&#x7801;</h3>
+<p>&#x8BBE;&#x7F6E;</p>
+<pre><code class="lang-php"><span class="hljs-variable">$response</span>-&gt;setStatus(<span class="hljs-number">404</span>);
+</code></pre>
+<p>&#x8FD4;&#x56DE;</p>
+<pre><code class="lang-php"><span class="hljs-variable">$response</span>-&gt;getStatus();
+</code></pre>
+<h3 id="http-&#x54CD;&#x5E94;&#x9996;&#x90E8;&#x5B57;&#x6BB5;">HTTP &#x54CD;&#x5E94;&#x9996;&#x90E8;&#x5B57;&#x6BB5;</h3>
+<p>&#x8BBE;&#x7F6E;</p>
+<pre><code class="lang-php"><span class="hljs-variable">$response</span>-&gt;header(<span class="hljs-string">&apos;Content-Type&apos;</span>, <span class="hljs-string">&apos;application/json&apos;</span>);
+<span class="hljs-variable">$response</span>-&gt;header(<span class="hljs-string">&apos;Content-Type&apos;</span>, <span class="hljs-string">&apos;application/json&apos;</span>, <span class="hljs-keyword">true</span>); <span class="hljs-comment">// true &#x8868;&#x793A;&#x66FF;&#x6362;&#x524D;&#x9762;&#x76F8;&#x540C;&#x7C7B;&#x578B;&#x7684;&#x5B57;&#x6BB5;</span>
+</code></pre>
+<p>&#x8FD4;&#x56DE;</p>
+<pre><code class="lang-php"><span class="hljs-variable">$response</span>-&gt;getHeader(<span class="hljs-string">&apos;Content-Type&apos;</span>);
+</code></pre>
+<p>&#x5220;&#x9664;</p>
+<pre><code class="lang-php"><span class="hljs-variable">$response</span>-&gt;removeHeader(<span class="hljs-string">&apos;Content-Type&apos;</span>);
+</code></pre>
+<p>&#x6E05;&#x7A7A;</p>
+<pre><code class="lang-php"><span class="hljs-variable">$response</span>-&gt;clean();
+</code></pre>
+<h3 id="http-&#x54CD;&#x5E94;&#x4E3B;&#x4F53;">HTTP &#x54CD;&#x5E94;&#x4E3B;&#x4F53;</h3>
+<p>&#x8BBE;&#x7F6E;</p>
+<pre><code class="lang-php"><span class="hljs-variable">$response</span>-&gt;setBody(<span class="hljs-string">&apos;Hello&apos;</span>);
+<span class="hljs-variable">$response</span>-&gt;setBody(<span class="hljs-string">&apos; world!&apos;</span>); <span class="hljs-comment">// &#x8986;&#x76D6;&#x73B0;&#x6709;&#x7684;&#x62A5;&#x6587;&#x4E3B;&#x4F53;</span>
+<span class="hljs-comment">// &#x4E3B;&#x4F53;&#x5185;&#x5BB9;&#x4E3A; world!</span>
+
+<span class="hljs-variable">$response</span>-&gt;setBody(<span class="hljs-string">&apos;Hello&apos;</span>);
+<span class="hljs-comment">// &#x8FFD;&#x52A0;&#x54CD;&#x5E94;&#x4E3B;&#x4F53;</span>
+<span class="hljs-variable">$response</span>-&gt;setBody(<span class="hljs-string">&apos;world!&apos;</span>, <span class="hljs-keyword">false</span>);
+<span class="hljs-comment">// &#x6216;&#x8005;</span>
+<span class="hljs-variable">$response</span>-&gt;write(<span class="hljs-string">&apos;Bar&apos;</span>);
+</code></pre>
+<p>&#x8FD4;&#x56DE;</p>
+<pre><code class="lang-php"><span class="hljs-variable">$response</span>-&gt;getBody();
+</code></pre>
+<h3 id="&#x91CD;&#x5B9A;&#x5411;">&#x91CD;&#x5B9A;&#x5411;</h3>
+<p>&#x8BBE;&#x7F6E; <code>response &#x72B6;&#x6001;&#x7801;</code> &#x548C; <code>Location&#xFF1A;header</code> &#x7684;&#x54CD;&#x5E94;&#x3002;</p>
+<pre><code class="lang-php"><span class="hljs-variable">$response</span>-&gt;redirect(<span class="hljs-string">&apos;/login&apos;</span>, <span class="hljs-number">303</span>);
+</code></pre>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="./request.html" class="navigation navigation-prev " aria-label="Previous page: 请求"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="./dependency-injection.html" class="navigation navigation-next " aria-label="Next page: 依赖注入"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="gitbook/app.js"></script>
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"livereload":{}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
