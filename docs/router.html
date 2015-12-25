@@ -53,7 +53,7 @@
         data-chapter-title="路由"
         data-filepath="router.md"
         data-basepath="."
-        data-revision="Wed Dec 16 2015 10:51:34 GMT+0800 (中国标准时间)"
+        data-revision="Fri Dec 25 2015 16:03:48 GMT+0800 (中国标准时间)"
         data-innerlanguage="">
     
 
@@ -441,6 +441,24 @@
 <pre><code class="lang-php"><span class="hljs-variable">$app</span>-&gt;get(<span class="hljs-string">&apos;/user/&lt;name&gt;&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(<span class="hljs-variable">$name</span>)</span> </span>{
     <span class="hljs-comment">// ...</span>
 })-&gt;name(<span class="hljs-string">&apos;user&apos;</span>);
+</code></pre>
+<h3 id="&#x8DEF;&#x7531;&#x5206;&#x7EC4;">&#x8DEF;&#x7531;&#x5206;&#x7EC4;</h3>
+<pre><code class="lang-php"><span class="hljs-variable">$app</span>-&gt;group(<span class="hljs-string">&apos;/post&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{
+    <span class="hljs-variable">$this</span>-&gt;get(<span class="hljs-string">&apos;/new&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-comment">// code ...</span>
+    });
+
+    <span class="hljs-variable">$this</span>-&gt;post(<span class="hljs-string">&apos;/del&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-comment">// code ...</span>
+    });
+});
+</code></pre>
+<p>&#x8DEF;&#x7531;&#x5206;&#x7EC4;&#x7684;&#x8FC7;&#x6EE4;&#x51FD;&#x6570;</p>
+<pre><code class="lang-php"><span class="hljs-variable">$app</span>-&gt;group(<span class="hljs-string">&apos;/post&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{
+    <span class="hljs-comment">// code ...</span>
+}, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{
+    <span class="hljs-comment">// code ..</span>
+});
 </code></pre>
 <h3 id="&#x8DEF;&#x7531;&#x8FC7;&#x6EE4;">&#x8DEF;&#x7531;&#x8FC7;&#x6EE4;</h3>
 <p>&#x8DEF;&#x7531;&#x8FC7;&#x6EE4;&#x4F1A;&#x5728;&#x8DEF;&#x7531;&#x56DE;&#x8C03;&#x51FD;&#x6570;&#x88AB;&#x8C03;&#x7528;&#x524D;&#x6309;&#x987A;&#x5E8F;&#x88AB;&#x6267;&#x884C;&#x3002;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5728;&#x8DEF;&#x7531;&#x8FC7;&#x6EE4;&#x4E2D;&#x8FDB;&#x884C;&#x5224;&#x65AD;&#x6216;&#x8005;&#x5176;&#x4ED6;&#x64CD;&#x4F5C;&#xFF1A;</p>
