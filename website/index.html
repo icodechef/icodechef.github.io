@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Lime 是一个 PHP 的微框架, 帮助你快速构建简单但强大的 RESTful 风格的网页应用和 API。它提供路由(routing)、依赖注入(dependency injection)、中间件(middleware)、视图继承、视图片段和安全 cookies 等功能">
+    <meta name="keywords" content="Lime,PHP,PHP框架,微框架,开源,应用程序,快速开发,RESTful">
+    <meta name="author" content="icodechef">
+
+    <title>Lime - PHP 框架</title>
+
+    <link href="./assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="./assets/js/html5shiv.min.js"></script>
+      <script src="./assets/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Lime</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="../navbar/">Default</a></li>
+                    <li><a href="../navbar-static-top/">Static top</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+
+    <div class="jumbotron docs-masthead">
+        <div class="container">
+            <h1>Lime</h1>
+            <p>一个 PHP 的微框架, 帮助你快速构建简单但强大的 RESTful 风格的网页应用和 API。它提供路由(routing)、依赖注入(dependency injection)、中间件(middleware)、视图继承、视图片段和安全 cookies 等功能。</p>
+            <p><a class="btn btn-custom btn-lg" href="#" role="button">了解更多</a></p>
+        </div>
+    </div>
+
+    <div class="container docs-marketing">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="docs-marketing-cell">
+                    <div class="docs-marketing-icon">
+                        <i class="glyphicon glyphicon-cloud-download"></i>
+                    </div>
+                    <h2><a href="https://codeload.github.com/icodechef/Lime/zip/master">下载 Lime</a></h2>
+                    <p>最新版本：1.0.0 版</p>
+                </div>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <div class="docs-marketing-cell">
+                    <div class="docs-marketing-icon">
+                        <i class="glyphicon glyphicon-book"></i>
+                    </div>
+                    <h2><a href="http://icodechef.github.io/docs/">阅读用户手册</a></h2>
+                    <p>清晰完善的文档</p>
+                </div>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <div class="docs-marketing-cell">
+                    <div class="docs-marketing-icon">
+                        <i class="glyphicon glyphicon-globe"></i>
+                    </div>
+                    <h2><a href="https://github.com/icodechef/Lime">在 GitHub 上</a></h2>
+                    <p>帮助修复 BUG 或开发新功能</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container docs-feature">
+        <h1 class="divider"><span>Features</span></h1>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="docs-feature-cell">
+                    <h2><i class="glyphicon glyphicon-send"></i> 快速构建应用程序</h2>
+                    <p>Lime 能帮助您构建简单但强大的 RESTful 风格的网页应用和 API。支持路由(routing)、依赖注入(dependency injection)、中间件(middleware)、视图继承、视图片段等功能</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="docs-feature-cell">
+                    <h2><i class="glyphicon glyphicon-cloud-download"></i> 轻内核、易扩展</h2>
+                    <p>核心的设计思路清晰、良好的架构，松散耦合，易于扩展维护。非常容易扩展和添加新的类库。</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="docs-feature-cell">
+                    <h2><i class="glyphicon glyphicon-leaf"></i> 小巧而简单的框架</h2>
+                    <p>Lime 不打算做成一个大而全的框架。在保持简洁的同时提供足够强大的功能来提高你的生产力，在此基础之上允许您使用第三方扩展。</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="docs-feature-cell">
+                    <h2><i class="glyphicon glyphicon-file"></i> 灵活的视图功能</h2>
+                    <p>使用 Lime 的视图继承功能可以为整个应用定义一种布局模板，也可以为每个操作定义不同的布局模板。而视图片段功能可以按需求将数据输出到视图中。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="docs-footer">
+        <div class="container">
+            <ul class="docs-footer-links">
+                <li><a href="">关于我们</a></li>
+                <li>·</li>
+                <li><a href="">联系我们</a></li>
+                <li>·</li>
+                <li><a href="https://github.com/icodechef/Lime">GitHub</a></li>
+                <li>·</li>
+                <li><a href="">Blog</a></li>
+                <li>·</li>
+                <li><a href="">Issues</a></li>
+                <li>·</li>
+                <li><a href="">Releases</a></li>
+            </ul>
+            <p class="copyright">Copyright &copy; 2015. Powered by <a href="http://www.icodechef.com">ICODECHEF.COM</a>. All Rights Reserved.</p>
+            <p>授权许可遵循 </p>
+        </div>
+    </footer>
+
+    <script src="./assets/js/jquery-1.11.3.min.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>

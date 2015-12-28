@@ -1,0 +1,119 @@
+body {
+    position: relative; /* For scrollspy */
+    padding-top: 50px;
+    font-family: "Microsoft Yahei","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #555;
+}
+a {
+    color: #719e33;
+    text-decoration: none;
+}
+a:hover, a:focus {
+    color: #5a7e28;
+    text-decoration: underline;
+}
+.navbar-default .navbar-brand {
+    color: #719e33;
+    font-weight: bold;
+    font-size: 22px;
+}
+.docs-masthead {
+    color: #fff;
+    text-align: center;
+    background-color: #85c019;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.docs-marketing {
+    margin-bottom: 1em;
+}
+.docs-marketing-cell {
+    border: 1px solid #CCC;
+    border-radius: 6px;
+    display: block;
+    padding: 15px 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1.1em;
+    font-size: 15px;
+}
+.docs-marketing-icon {
+    font-size: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+.docs-marketing-cell h2 {
+    font-size: 18px;
+}
+.btn-custom {
+    color: #fff;
+    background-color: #719e33;
+    border-color: #658e2d;
+}
+.btn-custom:hover {
+    color: #fff;
+    background-color: #5a7e28;
+    border-color: #658e2d;
+}
+
+.divider {
+    border-top: 1px solid #CCC;
+    margin-bottom: 0;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.divider span {
+    background: #fff;
+    display: inline-block;
+    padding: 0 20px;
+    position: relative;
+    top: -24px;
+    font-size: 20px;
+}
+
+.docs-feature-cell {
+    display: block;
+    padding: 8px 0;
+    width: 100%;
+    font-size: 15px;
+}
+.docs-feature-cell h2 {
+    font-size: 22px;
+}
+
+.docs-feature-icon {
+    font-size: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+
+/*
+ * Footer
+ *
+ * Separated section of content at the bottom of all pages, save the homepage.
+ */
+
+.docs-footer {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin-top: 60px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+.docs-footer-links {
+  padding-left: 0;
+  color: #999;
+  margin-bottom: 2px;
+}
+.docs-footer-links li {
+  display: inline;
+  padding: 0 2px;
+}
+.docs-footer-links li:first-child {
+  padding-left: 0;
+}
+.docs-footer p {
+  margin-bottom: 2px;
+}
